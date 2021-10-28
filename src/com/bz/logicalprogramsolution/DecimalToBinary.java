@@ -3,6 +3,9 @@ package com.bz.logicalprogramsolution;
 import java.util.Scanner;
 
 public class DecimalToBinary {
+    /*
+     * Added a method toBinary to convert integers to binary
+     */
     private static void toBinary(int userInputDecimal) {
         int[] binary = new int[15];
         int elementIndex = 0;
@@ -10,7 +13,6 @@ public class DecimalToBinary {
             binary[elementIndex] = userInputDecimal % 2;
             userInputDecimal = userInputDecimal / 2;
             elementIndex = elementIndex + 1;
-
         }
         for (int i = elementIndex - 1; i >= 0; i--) {
             System.out.print(binary[i]);

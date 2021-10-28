@@ -3,12 +3,15 @@ package com.bz.logicalprogramsolution;
 import java.util.*;
 
 public class TemperatureConversion {
+    /*
+    Added method calculate for temperature conversion
+    */
     public void calculate() {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter 1 to convert from celsius to fahrenheit.");
         System.out.println("enter 2 to convert from fahrenheit to celsius .");
         int choice = sc.nextInt();
-        int temperature,result;
+        int temperature, result;
         if (choice == 1) {
             System.out.println("enter the temperature in celsius");
             temperature = sc.nextInt();
