@@ -3,8 +3,9 @@ package com.bz.logicalprogramsolution;
 import java.util.Scanner;
 
 public class StopWatch {
-
-
+    /*
+     *Added  methods to create a stop watch
+     */
     public double startTime() {
         double start;
         System.out.println("Press 1 to start ");

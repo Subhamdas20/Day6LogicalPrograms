@@ -3,10 +3,10 @@ package com.bz.logicalprogramsolution;
 import java.util.Scanner;
 
 public class ReverseNumber {
+    /* Added method reverse to find reverse of a number */
     static void reverse(int inputNumber) {
         int reverseNumber = 0;
         while (inputNumber != 0) {
-
             int lastDigitOfNumber = inputNumber % 10;
             reverseNumber = (reverseNumber * 10) + lastDigitOfNumber;
             inputNumber = inputNumber / 10;

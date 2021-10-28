@@ -3,7 +3,9 @@ package com.bz.logicalprogramsolution;
 import java.util.Scanner;
 
 public class SquareRootOfNonNegetiveNumber {
-
+    /*
+     *Added method to calculate roots
+     */
     static void calculateRoot(int c) {
         double e = 2.71828;
         double t = 0;
